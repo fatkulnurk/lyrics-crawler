@@ -1,4 +1,4 @@
-package abtract
+package abstract
 
 type Lyric struct {
 	Title string

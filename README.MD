@@ -1,7 +1,5 @@
 # LYRIC LAGU CRAWLER
 ---
-_Masih dalam proses pembuatan_
-
 **SITUS YANG DIDUKUNG**
 - [x] Chord tela
 - [ ] Kord Indonesia

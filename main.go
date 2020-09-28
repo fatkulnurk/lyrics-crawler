@@ -6,7 +6,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gocolly/colly"
 	"log"
-	"lyrics_crawler/abtract"
+	"lyrics_crawler/abstract"
 	"lyrics_crawler/sites"
 	"strings"
 )

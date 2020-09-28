@@ -2,12 +2,12 @@ package sites
 
 import (
 	"github.com/gocolly/colly"
-	"lyrics_crawler/abtract"
+	"lyrics_crawler/abstract"
 	"strings"
 )
 
-func Chordtela(e *colly.HTMLElement) abtract.Lyric {
-	var lyric abtract.Lyric
+func Chordtela(e *colly.HTMLElement) abstract.Lyric {
+	var lyric abstract.Lyric
 	title := e.ChildText("h1")
 	title = strings.ReplaceAll(title, "Chord Kunci Gitar ", "")
 	body := e.ChildText("pre")
